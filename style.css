@@ -1,0 +1,131 @@
+body {
+  background-image: url("Cyberpunk Nightcity.png");
+  background-position: center;
+  background-size: 1280px 765px;
+  background-repeat: no-repeat;
+  font-family: Bahnschrift;
+}
+
+.root {
+    width: 100%;
+    max-width: 800px;
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+  
+  .hWrapper {
+    margin-top: 30px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+  }
+  
+  .header {
+    font-size: 24px;
+    text-align: center;
+    color: white;
+  }
+  
+  .main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    max-width: max-content;
+    gap: 30px;
+  }
+  
+  form {
+    display: flex;
+    width: 800px;
+    flex-direction: column;
+    border: 1px solid lightgrey;
+    padding: 20px;
+    box-sizing: border-box;
+    transition: width 0.3s ease;
+    backdrop-filter: blur(20px);
+    border-radius: 10px;
+  }
+  
+  form div {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-size: 16px;
+    margin-bottom: 5px;
+    color: white;
+  }
+  
+  input[type="text"], input[type="file"] {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #0000007d;
+    border-radius: 4px;
+    background-color: #0000007d;
+    color: white;
+    outline: none;
+    box-sizing: border-box;
+  }
+  
+  input[type="text"]:focus, input[type="file"]:focus {
+    border-color: white;
+  }
+  
+  input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #0000007d;
+    color: white;
+    border: 1px solid white;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    align-self: center;
+    /* backdrop-filter: blur(20px); */
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #008000;
+    border: none;
+  }
+  
+  .display-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    width: 370px;
+  }
+
+  .card {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s;
+    backdrop-filter: blur(20px);
+    color: white;
+  }
+  
+  .card:hover {
+    transform: scale(1.02);
+    box-shadow: 0 0 25px #293fcc;
+  }
+  
+  .card img {
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 10%;
+    margin-bottom: 10px;
+    border: 1px solid white;
+  }
+  
+  .card p {
+    margin: 5px 0;
+  }
