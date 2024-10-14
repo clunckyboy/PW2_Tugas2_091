@@ -1,8 +1,9 @@
 body {
   background-image: url("Cyberpunk Nightcity.png");
   background-position: center;
-  background-size: 1280px 765px;
+  background-size: cover;
   background-repeat: no-repeat;
+  display: flex;
   font-family: Bahnschrift;
 }
 
